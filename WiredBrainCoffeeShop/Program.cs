@@ -15,6 +15,11 @@ namespace WiredBrainCoffeeShop
             {
                 var line = Console.ReadLine();
                 var coffeeShops = coffeeShopDataProvider.LoadCoffeeShop();
+
+                if (string.Equals("quit", line, StringComparison.OrdinalIgnoreCase))
+                {
+                    break;
+                }
                 if (string.Equals("help", line, StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("> Available Coffee Commands:");
