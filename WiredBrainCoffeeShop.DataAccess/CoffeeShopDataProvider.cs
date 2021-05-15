@@ -13,6 +13,7 @@ namespace WiredBrainCoffeeShop.DataAccess
             yield return new CoffeeShop { Location = "Accra", BeansInStockInKg = "400kg" };
             yield return new CoffeeShop { Location = "Nungua", BeansInStockInKg = "450kg" };
             yield return new CoffeeShop { Location = "Tema", BeansInStockInKg = "450kg" };
+            yield return new CoffeeShop { Location = "Tema West", BeansInStockInKg = "600kg" };
         }
     }
 }
